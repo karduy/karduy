@@ -63,9 +63,11 @@ a { color: inherit; text-decoration: none; }
 .logo:hover { transform: translateY(-2px) scale(1.03); }
 
 .tagline {
-  margin-top: 15px;
-  font-size: 18px;
-  opacity: 0.9;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #ffffff; /* Un tono café oscuro orgánico */
+  padding-left: 15px;
 }
 
 .nav {
@@ -357,3 +359,43 @@ body.modal-open {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+/* Ajuste para el botón de historia en móviles */
+@media (max-width: 991px) {
+  .about__content .btn-light {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* Estilos para las fotos de los cuadros */
+    .highlight-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%; /* Fotos circulares */
+      margin-bottom: 15px;
+      border: 4px solid white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    /* Estilo para la foto del local al final */
+    .shop-container {
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .shop-image {
+      width: 100%;
+      max-width: 600px; /* Para que no sea gigante en PC */
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+      margin-bottom: 20px;
+    }
+
+    .shop-caption {
+      font-size: 14px;
+      color: var(--verde);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
