@@ -56,7 +56,7 @@ document.querySelectorAll(".btn-consultar").forEach(btn => {
             <li><strong>📍 Origen:</strong> ${origen}</li>
             <li><strong>🌿 Beneficios:</strong> ${beneficios}</li>
             <li style="margin-top:25px; list-style:none;">
-                <a href="https://wa.me/573222188846?text=Hola! Quiero más info del producto: ${nombre}" 
+                <a href="https://wa.me/573132008729?text=Hola! Quiero más info del producto: ${nombre}" 
                    target="_blank" 
                    class="btn" 
                    style="background:#25D366; display:block; text-align:center; color:white; font-weight:bold; text-decoration:none; padding:15px; border-radius:10px;">
